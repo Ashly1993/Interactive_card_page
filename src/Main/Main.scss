@@ -1,0 +1,164 @@
+.main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.flex-left-main {
+    background-image: url('../Assets/bg-main-desktop.png');
+    height: 100vh;
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    background-color: aqua;
+    width: 40%;
+
+    .cardFront {
+        position: absolute;
+        top: 250px;
+        left: 490px
+    }
+
+    .cardBack {
+        position: absolute;
+        top: 520px;
+        left: 550px
+    }
+
+    .cardFrontImage {
+        position: relative;
+
+        .previewNumber {
+            position: absolute;
+            width: 350px;
+            top: 347px;
+            left: 520px;
+            color: white;
+            font-size: 20px;
+            margin: 0px;
+            display: flex;
+            gap: 6px;
+
+            span {
+                padding-right: 6px;
+            }
+        }
+
+        .previewName {
+            position: absolute;
+            top: 425px;
+            left: 520px;
+            color: white;
+            font-size: 20px;
+            margin: 0px;
+        }
+
+        .previewDate {
+            position: absolute;
+            top: 425px;
+            left: 855px;
+            color: white;
+            font-size: 20px;
+            margin: 0px;
+        }
+
+    }
+
+}
+
+.flex-right-main {
+    background-color: white;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .nameField,
+    .numberField,
+    .expDate,
+    .cvc {
+        display: flex;
+        flex-direction: column;
+
+        input[type="text" i] {
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid gray;
+
+        }
+
+        label {
+            color: #1F082D;
+            font-weight: 500;
+            padding-bottom: 6px;
+        }
+    }
+
+    .expFlexRow {
+        display: flex;
+        gap: 6px;
+
+        input[type="text" i] {
+            width: 50px;
+        }
+
+
+    }
+
+    .expDateAndcc {
+        display: flex;
+        gap: 6px;
+    }
+
+    .confirmBtn {
+        background-color: #1F082D;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .error {
+        color: red;
+        font-size: 12px;
+    }
+
+    .done {
+        color: #1F082D;
+    }
+
+    .continueBtn {
+        background-color: #1F082D;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .grayText {
+        color: gray
+    }
+
+    .thankYouText {
+        font-size: 30px;
+    }
+
+    .successAlert {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+    }
+}
