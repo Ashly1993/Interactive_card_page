@@ -500,6 +500,49 @@
     }
 }
 
+@media screen and (min-width: 414px){
+    .flex-left-main .cardBack {
+        width: 255px;
+        position: absolute;
+        top: 27px;
+        left: 33px;
+    }
+    .flex-left-main .cardFront {
+        width: 255px;
+        position: absolute;
+        top: 151px;
+        left: 20px;
+    }
+    .flex-left-main .cardFrontImage .previewNumber {
+        position: absolute;
+        width: 210px;
+        top: 220px;
+        left: 48px;
+        color: white;
+        font-size: 11px;
+        margin: 0px;
+        display: flex;
+        gap: 6px;
+    }
+    .flex-left-main .cardFrontImage .previewName {
+        position: absolute;
+        top: 268px;
+        left: 34px;
+        color: white;
+        font-size: 14px;
+        margin: 0px;
+    }
+    .flex-left-main .cardFrontImage .previewDate {
+        position: absolute;
+        top: 268px;
+        left: 228px;
+        color: white;
+        font-size: 14px;
+        margin: 0px;
+    }
+}
+
+
 
 @media screen and (max-width: 375px){
     .flex-left-main .cardBack {
