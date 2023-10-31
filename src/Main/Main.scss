@@ -164,115 +164,348 @@
 }
 
 
+// /* Extra large devices (large desktops, 1200px and above) */
+// @media (max-width: 1200px) {
+//     .flex-left-main .cardFront {
+//         width: 350px;
+//         position: absolute;
+//         top: 187px;
+//         left: 190px;
+//     }
+//     .flex-left-main .cardFrontImage .previewNumber {
+//         position: absolute;
+//         width: 350px;
+//         top: 279px;
+//         left: 228px;
+//         color: white;
+//         font-size: 20px;
+//         margin: 0px;
+//         display: flex;
+//         gap: 6px;
+//     }
+//     .flex-left-main .cardFrontImage .previewName {
+//         position: absolute;
+//         top: 340px;
+//         left: 203px;
+//         color: white;
+//         font-size: 16px;
+//         margin: 0px;
+//     }
+//     .flex-left-main .cardFrontImage .previewDate {
+//         position: absolute;
+//         top: 340px;
+//         left: 473px;
+//         color: white;
+//         font-size: 16px;
+//         margin: 0px;
+//     }
+//     .flex-left-main .cardBack {
+//         width: 350px;
+//         position: absolute;
+//         top: 400px;
+//         left: 260px;
+//     }
+//   }
+
+// /* Large devices (desktops, 992px and above) */
+// @media (max-width: 992px) {
+//     /* CSS rules for large devices go here */
+
+//     .flex-left-main .cardFront {
+//         width: 300px;
+//         position: absolute;
+//         top: 250px;
+//         left: 195px;
+//     }
+
+//     .flex-left-main .cardFrontImage .previewNumber {
+//         position: absolute;
+//         width: 172px;
+//         top: 323px;
+//         left: 210px;
+//         color: white;
+//         font-size: 18px;
+//         margin: 0px;
+//         display: flex;
+//         gap: 6px;
+//     }
+
+//     .flex-left-main .cardFrontImage .previewName {
+//         position: absolute;
+//         top: 381px;
+//         left: 215px;
+//         color: white;
+//         font-size: 16px;
+//         margin: 0px;
+//     }
+
+//     .flex-left-main .cardFrontImage .previewDate {
+//         position: absolute;
+//         top: 381px;
+//         left: 429px;
+//         color: white;
+//         font-size: 14px;
+//         margin: 0px;
+//     }
+
+//     .flex-left-main .cardBack {
+//         width: 300px;
+//         position: absolute;
+//         top: 452px;
+//         left: 238px;
+
+//     }
+// }
 
 
-/* Large devices (desktops, 992px and above) */
-@media (max-width: 992px) {
-    /* CSS rules for large devices go here */
 
-    .flex-left-main .cardFront {
-        width: 300px;
-        position: absolute;
-        top: 250px;
-        left: 195px;
+// /* Large devices (desktops, 992px and above) */
+// @media (max-width: 576px) {
+//     .main {
+//         display: flex;
+//         flex-direction: column;
+//     }
+
+//     .flex-left-main {
+//         width: 100%;
+   
+//     }
+//     .flex-right-main {
+//         width: 100%;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         padding-top: 30px;
+//     }
+//     .flex-left-main .cardBack {
+//         width: 263px;
+//         position: absolute;
+//         top: 11px;
+//         left: 291px;
+//     }
+//     .flex-left-main .cardFront {
+//         width: 263px;
+//         position: absolute;
+//         top: 164px;
+//         left: 113px;
+//     }
+//     .flex-left-main .cardFrontImage .previewNumber {
+//         position: absolute;
+//         top: 236px;
+//         left: 128px;
+//         color: white;
+//         font-size: 14px;
+//         margin: 0px;
+//         display: flex;
+//         gap: 6px;
+//     }
+//     .flex-left-main .cardFrontImage .previewName {
+//         position: absolute;
+//         top: 273px;
+//         left: 126px;
+//         color: white;
+//         font-size: 14px;
+//         margin: 0px;
+//     }
+//     .flex-left-main .cardFrontImage .previewDate {
+//         position: absolute;
+//         top: 273px;
+//         left: 322px;
+//         color: white;
+//         font-size: 14px;
+//         margin: 0px;
+//     }
+   
+// }
+
+
+@media screen and (max-width: 1024px){
+    .flex-left-main {
+        width: 30%;
     }
-
+    .flex-right-main {
+        width: 70%;       
+    }
+    .flex-left-main .cardFront {
+        width: 250px;
+        position: absolute;
+        top: 187px;
+        left: 98px;
+    }
+    .flex-left-main .cardBack {
+        width: 250px;
+        position: absolute;
+        top: 351px;
+        left: 150px;
+    }
     .flex-left-main .cardFrontImage .previewNumber {
         position: absolute;
-        width: 172px;
-        top: 323px;
-        left: 210px;
+        width: 210px; 
+        top: 238px;
+        left: 123px;
         color: white;
-        font-size: 18px;
+        font-size: 11px;
         margin: 0px;
         display: flex;
         gap: 6px;
     }
-
     .flex-left-main .cardFrontImage .previewName {
         position: absolute;
-        top: 381px;
-        left: 215px;
-        color: white;
-        font-size: 16px;
-        margin: 0px;
-    }
-
-    .flex-left-main .cardFrontImage .previewDate {
-        position: absolute;
-        top: 381px;
-        left: 429px;
+        top: 289px;
+        left: 110px;
         color: white;
         font-size: 14px;
         margin: 0px;
     }
-
-    .flex-left-main .cardBack {
-        width: 300px;
+    .flex-left-main .cardFrontImage .previewDate {
         position: absolute;
-        top: 452px;
-        left: 238px;
-
+        top: 290px;
+        left: 284px;
+        color: white;
+        font-size: 14px;
+        margin: 0px;
     }
 }
 
 
+@media screen and (max-width: 768px){
 
-/* Large devices (desktops, 992px and above) */
-@media (max-width: 576px) {
-    .main {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .flex-left-main {
-        width: 100%;
-   
-    }
-    .flex-right-main {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 30px;
-    }
-    .flex-left-main .cardBack {
-        width: 263px;
-        position: absolute;
-        top: 11px;
-        left: 291px;
-    }
     .flex-left-main .cardFront {
-        width: 263px;
+        width: 235px;
         position: absolute;
-        top: 164px;
-        left: 113px;
+        top: 187px;
+        left: 60px;
     }
     .flex-left-main .cardFrontImage .previewNumber {
         position: absolute;
-        top: 236px;
-        left: 128px;
+        width: 210px;
+        top: 238px;
+        left: 80px;
         color: white;
-        font-size: 14px;
+        font-size: 11px;
         margin: 0px;
         display: flex;
         gap: 6px;
     }
     .flex-left-main .cardFrontImage .previewName {
         position: absolute;
-        top: 273px;
-        left: 126px;
+        top: 289px;
+        left: 76px;
         color: white;
         font-size: 14px;
         margin: 0px;
     }
     .flex-left-main .cardFrontImage .previewDate {
         position: absolute;
-        top: 273px;
-        left: 322px;
+        top: 289px;
+        left: 250px;
         color: white;
         font-size: 14px;
         margin: 0px;
     }
-   
+    .flex-left-main .cardBack {
+        width: 235px;
+        position: absolute;
+        top: 334px;
+        left: 75px;
+    }
+}
+
+
+@media screen and (max-width: 576px){
+    .main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .flex-left-main,.flex-right-main{
+        width: 100%;
+    }
+    .flex-left-main .cardBack {
+        width: 307px;
+        position: absolute;
+        top: 27px;
+        left: 255px;
+    }
+    .flex-left-main .cardFront {
+        width: 307px;
+        position: absolute;
+        top: 151px;
+        left: 60px;
+    }
+    .flex-left-main .cardFrontImage .previewNumber {
+        position: absolute;
+        width: 210px;
+        top: 238px;
+        left: 105px;
+        color: white;
+        font-size: 11px;
+        margin: 0px;
+        display: flex;
+        gap: 6px;
+    }
+    .flex-left-main .cardFrontImage .previewDate {
+        position: absolute;
+        top: 289px;
+        left: 316px;
+        color: white;
+        font-size: 14px;
+        margin: 0px;
+    }
+    .flex-right-main{
+       padding-top: 25px;
+    }
+}
+
+
+@media screen and (max-width: 414px){
+    .flex-left-main .cardBack {
+        width: 255px;
+        position: absolute;
+        top: 27px;
+        left: 145px;
+    }
+    .flex-left-main .cardFront {
+        width: 255px;
+        position: absolute;
+        top: 151px;
+        left: 60px;
+    }
+    .flex-left-main .cardFrontImage .previewNumber {
+        position: absolute;
+        width: 210px;
+        top: 221px;
+        left: 86px;
+        color: white;
+        font-size: 11px;
+        margin: 0px;
+        display: flex;
+        gap: 6px;
+    }
+    .flex-left-main .cardFrontImage .previewName {
+        position: absolute;
+        top: 268px;
+        left: 76px;
+        color: white;
+        font-size: 14px;
+        margin: 0px;
+    }
+    .flex-left-main .cardFrontImage .previewDate {
+        position: absolute;
+        top: 268px;
+        left: 271px;
+        color: white;
+        font-size: 14px;
+        margin: 0px;
+    }
+}
+
+
+@media screen and (max-width: 375px){
+    .flex-left-main .cardBack {
+        width: 255px;
+        position: absolute;
+        top: 27px;
+        left: 108px;
+    }
 }
