@@ -509,3 +509,52 @@
         left: 108px;
     }
 }
+
+
+
+@media screen and (max-width: 320px){
+    .flex-left-main .cardBack {
+        width: 255px;
+        position: absolute;
+        top: 27px;
+        left: 47px;
+    }
+    .flex-left-main .cardFront {
+        width: 255px;
+        position: absolute;
+        top: 151px;
+        left: 25px;
+    }
+    .flex-left-main .cardFrontImage .previewNumber {
+        position: absolute;
+        width: 210px;
+        top: 221px;
+        left: 49px;
+        color: white;
+        font-size: 11px;
+        margin: 0px;
+        display: flex;
+        gap: 6px;
+    }
+    .flex-left-main .cardFrontImage .previewName {
+        position: absolute;
+        top: 268px;
+        left: 40px;
+        color: white;
+        font-size: 14px;
+        margin: 0px;
+    }
+    .flex-left-main .cardFrontImage .previewDate {
+        position: absolute;
+        top: 268px;
+        left: 226px;
+        color: white;
+        font-size: 14px;
+        margin: 0px;
+    }
+    .flex-right-main .nameField input[type=text i], .flex-right-main .numberField input[type=text i], .flex-right-main .expDate input[type=text i], .flex-right-main .cvc input[type=text i] {
+        border-radius: 5px;
+        border: 1px solid gray;
+        padding: 10px 0px;
+    }
+}
