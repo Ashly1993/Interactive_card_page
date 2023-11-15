@@ -526,3 +526,98 @@
 }
 
 
+@media screen and (max-width: 414px){
+    .flex-left-main .cardBack {
+        top: 0px;
+        left: 225px;
+    }
+    .flex-left-main .cardFront {
+        top: -99px;
+        left: -73px;
+    }
+    .flex-left-main .cardFrontImage .previewNumber {
+        width: 217px;
+        top: -59px;
+        left: -67px;
+        font-size: 7px;
+        gap: 3px;
+    }
+    .flex-left-main .cardFrontImage .previewName {
+        top: -28px;
+        left: -66px;
+        font-size: 10px;
+        margin: 0px;
+    }
+    .flex-left-main .cardFrontImage .previewDate {
+        top: -28px;
+        left: 68px;
+        font-size: 10px;
+        margin: 0px;
+    }
+}
+
+
+@media screen and (max-width: 375px){
+    .flex-left-main .cardBack {
+        top: 0px;
+        left: 197px;
+    }
+    .flex-left-main .cardFront {
+        top: -99px;
+        left: -91px;
+    }
+    .flex-left-main .cardFrontImage .previewName {
+        top: -28px;
+        left: -84px;
+        font-size: 10px;
+        margin: 0px;
+    }
+    .flex-left-main .cardFrontImage .previewDate {
+        top: -28px;
+        left: 51px;
+        font-size: 10px;
+        margin: 0px;
+    }
+    .flex-left-main .cardFrontImage .previewNumber {
+        width: 217px;
+        top: -59px;
+        left: -84px;
+        font-size: 7px;
+        gap: 3px;
+    }
+}
+
+
+@media screen and (max-width: 320px){
+    .cardFront,
+    .cardBack {
+      width: 150px;
+    }
+    .flex-left-main .cardBack {
+        top: 0px;
+        left: 174px;
+    }
+    .flex-left-main .cardFront {
+        top: -99px;
+        left: -78px;
+    }
+    .flex-left-main .cardFrontImage .previewNumber {
+        width: 143px;
+        top: -59px;
+        left: -73px;
+        font-size: 5px;
+        gap: 0px;
+    }
+    .flex-left-main .cardFrontImage .previewName {
+        top: -35px;
+        left: -70px;
+        font-size: 10px;
+        margin: 0px;
+    }
+    .flex-left-main .cardFrontImage .previewDate {
+        top: -35px;
+        left: 42px;
+        font-size: 10px;
+        margin: 0px;
+    }
+}
